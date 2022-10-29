@@ -1,0 +1,40 @@
+
+
+.hContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #34495e;
+    height: 90px;
+    color: white;
+    align-items: center;
+}
+
+.headerContainer .search input[type="text"]{
+    outline: none;
+}
+
+.headerContainer .search{
+    background-color: white;
+}
+
+.headerContainer .navbar ul li{
+    padding: 10px;
+    float: left;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    color:aliceblue;
+}
+
+/* .navbar ul li Link{
+    color: aliceblue;
+} */
+
+.active{
+    color:white;
+    /* background-color: white; */
+}
+
+
+

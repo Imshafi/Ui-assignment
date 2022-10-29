@@ -1,0 +1,32 @@
+.headFootContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    padding:15px;
+}
+
+.footerContainer{
+    background-color: #34495e;
+    border:1px solid white;
+}
+
+.downContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.secondFooter{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lastSearch{
+    display: flex;
+    align-items: center;
+}
+
+.lastSearch input[type="email"]{
+    outline: none;
+}

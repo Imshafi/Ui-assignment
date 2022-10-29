@@ -1,0 +1,116 @@
+:root{
+    --color: rgb(77, 131, 240);
+}
+
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+body{
+    width:100%;
+}
+.mainWrapper{
+    width:100%;
+}
+.offerImg{
+    width:calc(50% - 5px);
+}
+.mainWrapper,.productMainWrapper,.offerWrapper,.offerBanner{
+    width:100%;
+    overflow:hidden;
+}
+.offerBannerImg{
+    width: 100%;
+}
+.productMainWrapper{
+    padding: 10px;
+}
+.branchProductWrapper{
+    width:100%;
+}
+.branchProductHeader>h2{
+    color:var(--color);
+    display: inline;
+    font-size: 32px;
+}
+.branchProductHeader>button{
+    background-color:var(--color);
+    padding: 15px 30px;
+    color:#fff;
+    float: right;
+    border:none;
+    cursor: pointer;
+}
+.mainWrapper{
+    background-color: rgb(217, 220, 220);
+    display: flex;
+}
+.sideBarWrapper{
+    width: 600px;
+    height: fit-content;
+    background-color: #fff;
+}
+.sideBarWrapper>div{
+    color:green;
+    text-align: center;
+    margin: 30px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.item{
+    background-color: #fff;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.item>div.itemImgWrapper{
+    width: fit-content;
+    margin:0px auto;
+}
+.item>div>img{
+    width: 130px;
+}
+.item>h2{
+    font-size: 28px;
+}
+.offerItemPrice{
+    font-size: 18px;
+    color:green;
+}
+.offerItemPrice>.offerPercentage{
+    font-size: 24px;
+    font-weight:700;
+    margin-left:20px
+}
+.itemsWrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(230px,1fr));
+    gap:10px;
+}
+.item>h1{
+    font-size: 32px;
+    color:var(--color)
+}
+.branchProductHeader{
+    padding: 20px 0px;
+}
+.sideBarWrapper>ul>li{
+    padding: 10px 30px;
+    display: flex;
+    align-items: flex-end;
+    margin:20px 0px;
+    text-transform: capitalize;
+}
+.sideBarWrapper>ul>li>img{
+    width:35px;
+    margin-right:40px
+}
+.sideBarWrapper>ul>li>span{
+    height:100%;
+    font-size: 18px;
+    color:grey
+}
